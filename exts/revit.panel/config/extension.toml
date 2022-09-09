@@ -1,0 +1,28 @@
+[package]
+
+version = "1.0.0"
+
+title = "Revit Panel"
+description="This plug-in is the UI part of the property view panel of usd files imported through Revit Connector"
+
+
+readme  = "docs/README.md"
+
+repository = ""
+
+
+category = "Scene_UI"
+
+
+keywords = ["kit", "revit","UI"]
+
+preview_image = "docs/package/preview_image.jpg"
+
+icon = "docs/package/rvPanel.png"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+
+# Main python module this extension provides, it will be publicly available as "import revit.panel".
+[[python.module]]
+name = "revit.panel"
